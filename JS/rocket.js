@@ -10,10 +10,10 @@ const colors = {
   wing: rootStyles.getPropertyValue('--ship-wing-color')
 }
 
-const bodyLength = 140;
-const bodyDiameter = 80;
-const mainStroke = 10;
-const wingOffset = 1.75;
+const bodyLength = 105; //140
+const bodyDiameter = 60; //80
+const mainStroke = 7; //10
+const wingOffset = 1.75; //1.75
 
 let isSpinning = true;
 
