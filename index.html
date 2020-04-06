@@ -1,0 +1,139 @@
+<<<<<<< HEAD
+<!doctype html>
+<html lang="en">
+	<head>
+	    <meta charset="utf-8"> 
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	    <!-- Bootstrap -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+		<!-- Stylesheets -->
+	    <link rel="stylesheet" type="text/css" href="style.css">
+	    <link rel="stylesheet" type="text/css" href="CSS/rocket.css">
+	    <link rel="stylesheet" type="text/css" href="CSS/switch-button.css">
+	    <link rel="stylesheet" type="text/css" href="CSS/dark-mode.css">
+	    <link rel="stylesheet" type="text/css" href="CSS/clouds.css">
+	    <link rel="stylesheet" type="text/css" href="CSS/shooting-stars.css">
+
+		<!-- Icon -->
+	    <link rel="icon" type="image/svg" href="IMG/rocket.svg">
+
+	    <title>Jorick Pepin</title>
+  	</head>
+	<body>
+
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+		
+	  				<!-- Theme switch -->
+					<div class="switch_box float-right">
+						<!-- Credit : https://bootsnipp.com/sumitkumar -->
+						<div class="toggle_switch">
+							<input type="checkbox" id="darkSwitch" class="switch" onclick="ajustDarkMode()">
+							<svg class="checkbox" xmlns="http://www.w3.org/2000/svg" style="isolation:isolate" viewBox="0 0 168 80">
+						   		<path class="outer-ring" d="M41.534 9h88.932c17.51 0 31.724 13.658 31.724 30.482 0 16.823-14.215 30.48-31.724 30.48H41.534c-17.51 0-31.724-13.657-31.724-30.48C9.81 22.658 24.025 9 41.534 9z" fill="none" stroke="#233043" stroke-width="3" stroke-linecap="square" stroke-miterlimit="3"/>
+						   		<path class="is_unchecked" d="M17 39.482c0-12.694 10.306-23 23-23s23 10.306 23 23-10.306 23-23 23-23-10.306-23-23z"/>
+								<path class="is_checked" d="M132.77 22.348c7.705 10.695 5.286 25.617-5.417 33.327-2.567 1.85-5.38 3.116-8.288 3.812 7.977 5.03 18.54 5.024 26.668-.83 10.695-7.706 13.122-22.634 5.418-33.33-5.855-8.127-15.88-11.474-25.04-9.23 2.538 1.582 4.806 3.676 6.66 6.25z"/>
+							</svg>
+					  	</div>
+					</div>
+
+					<!-- Clouds -->
+					<div id="clouds-container">
+						<!-- Credit : https://codepen.io/Mark_Bowley/pen/xEbuI -->
+						<div class="x1">
+	    					<div class="cloud"></div>
+						</div>
+						<div class="x2">
+					        <div class="cloud"></div>
+					    </div>
+					    <div class="x3">
+					        <div class="cloud"></div>
+					    </div>
+					    <div class="x4">
+					        <div class="cloud"></div>
+					    </div>
+					    <div class="x5">
+					        <div class="cloud"></div>
+					    </div>
+					</div>
+				
+					<!-- Shooting star -->
+				  	<div id="shooting-star-container">
+    					<div class="shooting-star-1"></div>
+  					</div>
+
+				</div>		
+			</div>
+		</div> 
+
+		<div class="container">
+			<div class="row text">
+		  		<h1 class="name"><strong>Jorick Pepin</strong></h1>
+			</div>
+
+			<div class="row text">
+				<h3 class="precision">Computer science student</h3>
+			</div>
+			
+				
+			<div class="row text paragraph">
+		  		<p>Currently student at the <a href="https://iutdijon.u-bourgogne.fr/www/" target="_blank" class="link">Institute of Technology</a> of the <a href="http://en.u-bourgogne.fr/" target="_blank" class="link">University of Burgundy</a> after an <a href="http://lyc21-eiffel.ac-dijon.fr/formation/prepa-tsi/" target="_blank" class="link">intensive year</a> of learning <b>mathematics</b>, <b>physics</b> and <b>engineering sciences</b>. After graduation, I would like to go to a computer engineering school.</p>
+
+		  	</div>
+
+	  		<div class="row text">
+				<div class="skill"><img src="IMG/linkedin.png" /><a href="https://www.linkedin.com/in/jorick-pepin-035947155/" target="_blank">LinkedIn</a></div>
+				<div class="skill"><img src="IMG/github.png" /><a href="https://github.com/JorickPepin" target="_blank">GitHub</a></div>
+				<div class="skill"><img src="IMG/france_ioi.png" /><a href="http://www.france-ioi.org/user/perso.php?sLogin=jorlck" target="_blank">France-IOI</a></div>
+				<div class="skill"><img src="IMG/mail.png" /><a href="mailto:contact@jorick.fr" target="_blank">Contact</a></div>
+			</div>
+		</div>
+
+		<!-- Rocket -->
+  		<div class="rocket w-100">
+	  		<!-- Credit : https://codepen.io/hexagoncircle/pen/mYGKre -->
+			<canvas class="ship" width="300" height="300"></canvas>
+			<div class="stars"></div>
+		</div>
+
+	</body>
+
+	<!-- Bootstrap -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+	<!-- ZDog -->
+	<script src="https://unpkg.com/zdog@1/dist/zdog.dist.min.js"></script>
+
+	<!-- Scripts -->
+	<script src="JS/rocket.js"></script>
+	<script src="JS/dark-mode-switch.js"></script>
+	<script src="JS/clouds.js"></script>
+	<script src="script.js"></script>
+</html>
+=======
+<!doctype html>
+<html lang="en">
+	<head>
+	    
+	    <meta charset="utf-8"> 
+
+	    <link rel="stylesheet" type="text/css" href="style.css">
+
+
+	    <title>Jorick</title>
+  	</head>
+  	<body>
+		<canvas class="ship" width="500" height="500"></canvas>
+		<div class="stars"></stars>
+		
+	</body>
+
+<script src="https://unpkg.com/zdog@1/dist/zdog.dist.min.js"></script>
+<script type="text/javascript" src="script.js"></script>
+
+</html>
+>>>>>>> 9a9818239640f94347ee4d20fd82742b01764fd0
